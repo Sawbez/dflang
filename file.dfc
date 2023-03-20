@@ -1,0 +1,17 @@
+event Player.OnJoin {
+    PlayerAction.Kill();
+}
+
+proc myprocess {
+    %defaultNumCoins = 5;
+    anotherThing = 'cool, ' + "hello " + r"let's go";
+}
+
+fn myfunc {
+    %selectedStuff = 3.14159.hello();
+    if !Player.isCrouching() && Player.isWalking() {
+        abc++;
+        cde += 1 >> 2;
+        PlayerAction.SetHealth(abc + cde);
+    }
+}1234.
